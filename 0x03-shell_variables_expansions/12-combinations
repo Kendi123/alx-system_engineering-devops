@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z}!oo | ls -al 
+echo {a..z}{a..z} | ls -a1 | grep -v "oo" 
